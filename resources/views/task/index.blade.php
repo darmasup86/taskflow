@@ -3,7 +3,7 @@
 @section('content')
     <h1>Task Page Tugas Darma</h1>
 
-    <p>ini adalah halaman task yang dibuat untuk tugas 2 Laravel 11/13</p>
+    <p>ini adalah halaman task yang dibuat untuk tugas 2 Laravel 13</p>
     <p>Nama Task: {{ $namaTask }}</p>
 
     @if ($status === 'done')
